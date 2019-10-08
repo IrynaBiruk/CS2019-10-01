@@ -1,6 +1,6 @@
-package by.it.biruk._tasks_.lesson02;
+package by.it.biruk.lesson02;
 
-import java.util.Scanner;// импорт сканера
+import java.util.Scanner;
 
 /* Нужно написать программу, которая вводит два числа с клавиатуры
 и выводит их сумму на экран в виде
