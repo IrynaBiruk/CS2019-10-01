@@ -1,4 +1,4 @@
-package by.it.biruk._tasks_.lesson03;
+package by.it.biruk.lesson03;
 
 /*
 Lesson 03. Task A2. Стихотворение

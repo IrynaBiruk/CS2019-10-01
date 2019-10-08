@@ -1,4 +1,4 @@
-package by.it.biruk._tasks_.lesson02;
+package by.it.biruk.lesson02;
 /*
         Уберите комментарии с части кода, чтобы на экран вывелось сообщение «C Новым Годом».
 

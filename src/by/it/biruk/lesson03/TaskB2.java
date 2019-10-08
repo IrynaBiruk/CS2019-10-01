@@ -1,4 +1,4 @@
-package by.it.biruk._tasks_.lesson03;
+package by.it.biruk.lesson03;
 
 /*
 Lesson 03. Task B2. Нужно написать программу, которая вводит три числа  a b c типа int с клавиатуры
