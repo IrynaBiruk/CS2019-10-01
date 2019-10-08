@@ -21,5 +21,13 @@ Lesson 03. Task A2. Стихотворение
 Для автоматической проверки откройте и запустите класс Testing
 */
 class TaskA2 {
+    public static void main (String[] args) {
+        String a="Мой родны кут, як ты мне мiлы!..";
+        String b="Забыць цябе не маю сiлы!";
+        String c="Не раз, утомлены дарогай,";
+        String d="Жыццём вясны мае убогай...";
+        System.out.println("Мое любимое стихотворение:");
+        System.out.println(a+ "\n" + b + "\n" + c + "\n" + d);
 
+    }
 }
