@@ -27,7 +27,7 @@ class TaskA2 {
         String c="Не раз, утомлены дарогай,";
         String d="Жыццём вясны мае убогай...";
         System.out.println("Мое любимое стихотворение:");
-        System.out.println(a+ "\n" + b + "\n" + c + "\n" + d);
+        System.out.println(a+ "\n" + b + "\n" + c + "\n" + d);//"n\" - перенос на новую строку
 
     }
 }
