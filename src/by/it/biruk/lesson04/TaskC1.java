@@ -45,27 +45,25 @@ public class TaskC1 {
         double zp = sc.nextDouble();
         if (zp < 300 || zp > 3000) {
             System.out.println("Мы вам перезвоним!");
-        }
-
-        else {
-                System.out.println("За месяц 0 начислено $0.0");
-                System.out.println("За январь начислено " + zp);
-                System.out.println("За февраль начислено " + zp);
-                System.out.println("За март начислено " + zp);
-                System.out.println("За апрель начислено " + zp);
-                System.out.println("За май начислено " + zp);
-                System.out.println("За июнь начислено " + (zp * 1.5));
-                System.out.println("За июль начислено " + (zp * 1.5));
-                System.out.println("За август начислено " + (zp * 1.5));
-                System.out.println("За сентябрь начислено " + zp);
-                System.out.println("За октябрь начислено " + zp);
-                System.out.println("За ноябрь начислено " + zp);
-                System.out.println("За декабрь начислено " + zp);
-                System.out.println("За месяц 13 начислено $0.0");
-                System.out.println("За месяц 14 начислено $0.0");
-            }
+        } else {
+            System.out.println("За месяц 0 начислено $0.0");
+            System.out.println("За январь начислено " + zp);
+            System.out.println("За февраль начислено " + zp);
+            System.out.println("За март начислено " + zp);
+            System.out.println("За апрель начислено " + zp);
+            System.out.println("За май начислено " + zp);
+            System.out.println("За июнь начислено " + (zp * 1.5));
+            System.out.println("За июль начислено " + (zp * 1.5));
+            System.out.println("За август начислено " + (zp * 1.5));
+            System.out.println("За сентябрь начислено " + zp);
+            System.out.println("За октябрь начислено " + zp);
+            System.out.println("За ноябрь начислено " + zp);
+            System.out.println("За декабрь начислено " + zp);
+            System.out.println("За месяц 13 начислено $0.0");
+            System.out.println("За месяц 14 начислено $0.0");
         }
     }
+}
 
 
 

@@ -66,4 +66,5 @@ public class TaskA2 {
             if (day<1) {System.out.println("такого дня недели не существует");}*/
 
 
-    }      }
+    }
+}

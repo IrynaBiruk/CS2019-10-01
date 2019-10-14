@@ -38,7 +38,7 @@ public class TaskB2 {
                 System.out.print(a * b + " ");
             }
             a++;
-            b=1;
+            b = 1;
             System.out.println(" ");
         }
 

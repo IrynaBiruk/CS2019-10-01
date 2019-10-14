@@ -30,11 +30,11 @@ public class TaskC2 {
     }
 
     private static int sumDigitsInNumber (int n) {
-        int n1=n/1000;
-        int n2=(n-n1*1000)/100;
-        int n3=(n-n1*1000-n2*100)/10;
-        int n4=n%10;
-return n1+n2+n3+n4;
+        int n1 = n / 1000;
+        int n2 = (n - n1 * 1000) / 100;
+        int n3 = (n - n1 * 1000 - n2 * 100) / 10;
+        int n4 = n % 10;
+        return n1 + n2 + n3 + n4;
     }
 
 }

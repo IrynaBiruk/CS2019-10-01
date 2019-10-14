@@ -52,10 +52,10 @@ class TaskC3 {
         //System.out.println(m1);
         //return m1;
         //double d = massMars;
-        massMars= new BigDecimal(massMars).setScale(2, RoundingMode.HALF_EVEN).doubleValue();
+        massMars = new BigDecimal(massMars).setScale(2, RoundingMode.HALF_EVEN).doubleValue();
         //System.out.println(massMars);
         //double m = Math.round(massMars*100.00)/100.00;
         return massMars;
-         //return m;
+        //return m;
     }
 }

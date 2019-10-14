@@ -22,11 +22,11 @@ class TaskC2 {
         int number2 = n.nextInt();
         System.out.println("DEC:" + number1 + "+" + number2 + "=" + (number1 + number2));
         System.out.println("BIN:" + Integer.toBinaryString(number1) + "+" +
-                Integer.toBinaryString(number2) + "=" + Integer.toBinaryString(number1+number2));
+                Integer.toBinaryString(number2) + "=" + Integer.toBinaryString(number1 + number2));
         System.out.println("HEX:" + Integer.toHexString(number1) + "+" +
-                Integer.toHexString(number2) + "=" + Integer.toHexString(number1+number2));
+                Integer.toHexString(number2) + "=" + Integer.toHexString(number1 + number2));
         System.out.println("OCT:" + Integer.toOctalString(number1) + "+" +
-                Integer.toOctalString(number2) + "=" + Integer.toOctalString(number1+number2));
+                Integer.toOctalString(number2) + "=" + Integer.toOctalString(number1 + number2));
 
     }
 
