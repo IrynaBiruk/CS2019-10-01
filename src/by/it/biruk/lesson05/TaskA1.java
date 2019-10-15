@@ -22,16 +22,18 @@ package by.it.biruk.lesson05;
 1
 
 */
-
-
 import java.util.Scanner;
 
 public class TaskA1 {
-    public static void main(String[] args) {
-        int [] array=new int[10];
-        Scanner sc=new Scanner(System.in);
-        for (int i=array.length-1;i>=0; i--) {
+    public static void main (String[] args) {
+        int[] array = new int[10];// ={0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+        Scanner sc = new Scanner(System.in);
+        for (int i = 9; i >= 0; i--) {
             array[i] = sc.nextInt();
+
+        }
+        for (int index : array) {
+            System.out.println(index);
         }
     }
 
