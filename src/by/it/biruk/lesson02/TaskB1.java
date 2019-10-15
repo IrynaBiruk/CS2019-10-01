@@ -22,10 +22,10 @@ int i=sc.nextInt();
 import java.util.Scanner;
 
 class TaskB1 {
-    public static void main (String[] args){
+    public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
-        System.out.println(number*number);
+        System.out.println(number * number);
     }
 }
 

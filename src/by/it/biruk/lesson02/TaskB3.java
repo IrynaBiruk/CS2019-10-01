@@ -1,4 +1,5 @@
 package by.it.biruk.lesson02;
+
 /*
         Уберите комментарии с части кода, чтобы на экран вывелось сообщение «C Новым Годом».
 
@@ -7,9 +8,9 @@ package by.it.biruk.lesson02;
         2. Нужно убрать комментарии в некоторых строках и не менять остальные.
         3. В программу нельзя добавлять новые строки или удалять имеющиеся.
         4. Выведенный текст должен соответствовать заданию.
-*/        
+*/
 class TaskB3 {
-        public static void main(String[] args) {
+    public static void main (String[] args) {
 //        String s = "C";
 //        System.out.println("Новым Годом");
 //        System.out.println("C Новым");

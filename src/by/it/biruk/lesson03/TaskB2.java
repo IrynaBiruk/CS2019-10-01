@@ -51,9 +51,10 @@ class TaskB2 {
             System.out.println("Отрицательный дискриминант");
         }
     }
-        public static double dis ( int a, int b, int c){
-            double D = b * b - 4 * a * c;
-            return D;
-        }
 
+    public static double dis (int a, int b, int c) {
+        double D = b * b - 4 * a * c;
+        return D;
     }
+
+}
