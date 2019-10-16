@@ -13,6 +13,20 @@ package by.it.biruk.lesson05;
 0 9
 */
 
-public class TaskA3 {
+import java.util.Scanner;
 
+public class TaskA3 {
+    public static void main (String[] args) {
+        int[] array = new int[10];
+        Scanner sc = new Scanner(System.in);
+        int min, max;
+        min = max = array[0];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = sc.nextInt();
+            if (min > array[i]) min = array[i];
+            if (max < array[i]) max = array[i];
+
+        }
+        System.out.println(min + " " + max);
+    }
 }
