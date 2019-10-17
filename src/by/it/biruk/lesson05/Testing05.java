@@ -30,6 +30,12 @@ public class Testing05 {
     }
 
     @Test(timeout = 2500)
+    public void testTaskA3 () throws Exception {
+        run("1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n").
+                include("0 9");
+    }
+
+    @Test(timeout = 2500)
     public void testTaskB1() throws Exception {
         String[] lines=run("").strOut.toString().split("\n");
         assertTrue("Неверный размер",lines.length==6 && lines[0].trim().equals("5"));
@@ -43,6 +49,12 @@ public class Testing05 {
                         "b=[11, 22, 33, 44, 55, 66, 77, 88, 99, 0]\n");
     }
 
+    @Test(timeout = 2500)
+    public void testTaskB3 () throws Exception {
+        run("123\n99\n88\n77\n66\n5\n4\n3\n0\n2")
+                .include("first element=9")
+                .include("last element=1");
+    }
 
     @Test(timeout = 2500)
     public void testTaskC1() throws Exception {
@@ -52,6 +64,12 @@ public class Testing05 {
 
     @Test(timeout = 2500)
     public void testTaskC2() throws Exception {
+        run("1\n-2\n3\n4\n5\n666\n7\n8\n9\n0\n1\n-1\n3\n4\n5\n665\n7\n8\n9\n0\n").
+                include("666\n665\n9\n9\n8\n8\n7\n7\n5\n5\n4\n4\n3\n3\n1\n1\n0\n0\n-1\n-2");
+    }
+
+    @Test(timeout = 2500)
+    public void testTaskC3 () throws Exception {
         run("1\n-2\n3\n4\n5\n666\n7\n8\n9\n0\n1\n-1\n3\n4\n5\n665\n7\n8\n9\n0\n").
                 include("666\n665\n9\n9\n8\n8\n7\n7\n5\n5\n4\n4\n3\n3\n1\n1\n0\n0\n-1\n-2");
     }
@@ -149,7 +167,7 @@ public class Testing05 {
     }
 
     //-------------------------------  тест ----------------------------------------------------------
-    public Testing05() {
+    public Testing05 () {
         //Конструктор тестов
     }
 
@@ -161,7 +179,7 @@ public class Testing05 {
     private StringWriter strOut = new StringWriter(); //накопитель строки вывода
 
     //Основной конструктор тестов
-    private Testing05(String className, String in, boolean runMain) {
+    private Testing05 (String className, String in, boolean runMain) {
         //this.className = className;
         aClass = null;
         try {
