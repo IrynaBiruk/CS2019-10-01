@@ -8,15 +8,15 @@ class Bubble {
     int nums[] = { 99, -10, 100123, 18, -978, 
                    5623, 463, -9, 287, 49 }; 
     int a, b, t;  
-    int size;  
-  
-    size = 10; // number of elements to sort  
+    int size;
+
+    size = 10; // number of elements to sort
   
     // display original array  
     System.out.print("Original array is:"); 
     for(int i=0; i < size; i++) 
       System.out.print(" " + nums[i]);  
-    System.out.println();  
+    System.out.println();
   
     // This is the bubble sort.  
     for(a=1; a < size; a++)  
